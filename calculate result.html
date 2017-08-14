@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="styles.css" rel="stylesheet" type="text/css">
+		<title>online voting system</title>
+	</head>
+
+	<body>
+		<header>
+			<h1 align="center"> Online Voting System </h1>
+			</br>
+		</header>
+
+		<div  id="menu">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="add election.html">Add Election</a></li>
+				<li><a href="add candidate.html">Add Candidate</a></li>
+				<li><a href="add use.html">Add users</a></li>
+				<li><a href="calculate result.html">Calculate Result</a></li>
+			</ul>
+		</div>
+		
+		<div id="content">
+			<div class="post">
+				<div class="met" align="center">Calculate result</div>
+				<form id="tab">
+					Election Id:<input type="text" name="election_id">
+					</br></br>
+					Election schedule:<input type="text" name="election_schedule">
+					</br></br>
+					<input type="button" name="calculate" value="Calculate" style="background-color:rgb(100,100,100); width:75px;height:30px"/>
+					<input type="reset" name="reset" value="Reset" style="background-color:rgb(100,100,100); width:65px;height:30px"/>
+					</br>

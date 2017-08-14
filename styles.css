@@ -1,0 +1,133 @@
+* 
+{
+margin: 0px;
+padding: 0px;
+}
+
+p{
+font-size:20px;
+	padding: 15px;
+}
+#tab{
+	font-size:20px;
+	padding-left:20px;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+#tab select,#tab input,#tab textarea
+{
+	font-size:15px;
+	background-color:rgb(180,220,256);
+	color:black;
+	border:solid 1px blue;
+}
+
+body {
+	background: #e01400;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	background: url(images/bg_all.jpg);
+	background-repeat:repeat-x;
+	background-position:top;
+	background-color: #247fe4;
+}
+
+input, textarea {
+	background: #A4E4F5;
+	border: 1px solid #FFFFFF;
+	/*font: bold 13px Arial, Helvetica, sans-serif;*/
+	color: #0F5B96;
+}
+
+h1, h2, h3, p, ol, ul {
+	margin-top: 0;
+}
+
+h1, h2, h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+h1 {
+	float:center;
+	color:#006aff;
+	font-size: 70px;
+}
+
+ 
+#menu {
+	height: 49px;
+	width: 1000px;
+	padding-left: 0px;
+	margin: 0 auto;
+	background:url(images/menubg.jpg);
+	background-position:center;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	float: left;
+	width: 200px;
+	height: 37px;
+	padding-top: 12px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+	color: #d9e8fd;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+#menu a:hover {
+	background: url(images/menuhov.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	text-decoration:none;
+	color: #000000;
+}
+#menu a:active{
+	background: url(images/menuhov.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	text-decoration:none;
+	color: #000000;
+}
+
+/* Content */
+
+#content {
+	float:left;
+	width:800px;
+	margin-left: 300px;
+	margin-right:5px;
+	margin-top:75px;
+}
+
+.met{
+	color: #006aff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	font-size: 30px;
+	padding-left: 20px;
+	padding-top:10px;
+}
+
+.post {
+	background: url(images/conbgtop.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+
+}
